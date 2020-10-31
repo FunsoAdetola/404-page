@@ -17,9 +17,6 @@ p{
   padding: 1rem 5rem;
 
 }
-/* #nav-brand, #nav-list, #nav-button, ul{
-  display: inline-block;
-} */
 
 li{
   display: inline-block;
@@ -45,7 +42,6 @@ li{
 }
 .left, .right{
    max-width: 50%;
-
 }
 .right img{
   width: 100%;
@@ -59,8 +55,8 @@ li{
 .flower{
   display: inline-block;
   position: relative;
-  top:7%;
-  left: 25%;
+  top:6%;
+  left: 26.5%;
 }
 .flower img{
   width:40%;
@@ -80,18 +76,22 @@ li{
 }
 .ellipse img{
   height: 100%;
+
 }
 
-@media(max-width:768px)
- {
+@media(max-width:992px){
+  #nav{
+    padding: 1rem 2rem 2rem 5rem;
+  }
 
 .content{
   display: block;
   margin:auto;
+  margin-top: 5rem;
 }
 .left, .right{
    max-width: 100%;
-    margin: 2rem 1rem;
+    margin: 3rem 1rem;
 }
 .ellipse{
   display: none;
@@ -100,10 +100,12 @@ li{
   display: none;
 }
 .left-content{
-  margin-top: 5rem;
   padding-left:0;
   margin: auto;
   text-align: center;
+}
+.right{
+  margin-top: 5rem;
 }
 #navlist{
   text-align: center;
@@ -115,6 +117,6 @@ li{
 .flower{
   display: none;
   top:50%;
-  left: 27%;
+  left: 30%;
 }
 }
